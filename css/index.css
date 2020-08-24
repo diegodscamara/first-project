@@ -1,1 +1,38 @@
-body {background-color: lightgray;}
+body {
+    background-color: lightgray;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+  .social-media img {
+      width: 30px;
+      height: 30px;
+  }

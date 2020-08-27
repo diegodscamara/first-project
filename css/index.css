@@ -1,140 +1,52 @@
-body {
-    background-color: #edf2f4;
+body, html {
     font-family: Arial, 'Montserrat', sans-serif;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 100px;
-    overflow-x: hidden;
-    text-align: center;
 }
 
-p {
-    line-height: 1.6em;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12pt;
-    margin-bottom: 12pt;
-    margin-right: 12px;
-    margin-left: 12px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-family: "Open Sans", Helvetica, sans-serif;
-    font-weight: 300;
-}
-
-h1 {
-    font-size: 36pt;
-  }
-  
-  h2 {
-    font-size: 24pt;
-    margin-top: 40px;
-  }
-
-nav {
-    border: 1px solid black;
-    background-color: #023e8a;
-    overflow: hidden;
-    height: 100px;
-}
-
-.logo {
-    float: left;
-    margin-top: 15px;
-    margin-left: 50px;
-}
-
-.menu {
-    overflow: hidden;
-    background-color: #edf2f4;
-    float: right;
-    margin-top: 25px;
-    margin-right: 100px;
-    border: 1px solid #edf2f4 ;
-    border-radius: 5px;
-}
-
-.menu a {
-    float: left;
-    color: #2b2d42;
-    text-align: center; 
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.menu a:hover {
+.bg-1 {
     background-color: #8d99ae;
-    color: black;
-  }
+}
+
+.navbar {
+    background-color: #03045e;
+}
+
+.mr-auto {
+    margin: .8rem;
+}
 
 header {
-    font-family: 'Open Sans', sans-serif;
-    max-width: 100%;
-    height: 500px;
-}
-
-#background {
-    max-width: 1200px;
-    height: 500px;
-    overflow-x: hidden;
-}
-
-header h1 {
-    margin-top: 55px;
-    padding-top: 100px;
-    color: #edf2f4;
-}
-
-header p {
-    margin-top: 10px;
-    color: #edf2f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #services {
-    border: 1px solid black;
-    max-width: 100%;
-    height: 650px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #8d99ae;
 }
 
 #about {
-    border: 1px solid black;
-    max-width: 100%;
-    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-#about p {
-    margin: 100px;
-    text-align: justify;
+.img-about {
+    padding: 30px 0;
 }
 
 #contact {
-    border: 1px solid black;
-    max-width: 100%;
-    height: 500px;
-}
-
-div.form {
-    display: block;
-    text-align: center;
-}
-
-form {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.social {
-    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #8d99ae;
 }
 footer {
-    border: 1px solid black;
-    background-color: #2b2d42;
-    padding: 10px;
-  }
+    padding: 10px 0;
+}
 
-  footer p, a {
-      color: #edf2f4;
-  }
+.bg {
+    background-image: url(/Users/diegocamara/first-project/images/top.jpg)
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

@@ -1,5 +1,6 @@
 body, html {
-    font-family: Arial, 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .bg-1 {
@@ -14,39 +15,29 @@ body, html {
     margin: .8rem;
 }
 
-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.banner {
+    height: 400px;
+    padding-top: 150px;
 }
 
 #services {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #8d99ae;
 }
 
 #about {
     padding-top: 50px;
     padding-bottom: 50px;
-}
-
-.img-about {
-    padding: 30px 0;
+    background-color: #8d99ae;
 }
 
 #contact {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #8d99ae;
 }
 footer {
     padding: 10px 0;
 }
 
-.bg {
-    background-image: url(/Users/diegocamara/first-project/images/top.jpg)
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 

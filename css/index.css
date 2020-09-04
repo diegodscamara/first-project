@@ -1,43 +1,59 @@
-body, html {
-    margin: 0;
-    padding: 0;
+html {
+    width: 100%;
+}
+.navbar-nav {
+    padding-left: 800px !important;
 }
 
-.bg-1 {
-    background-color: #8d99ae;
+.card {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-.navbar {
-    background-color: #03045e;
+.text-left {
+    margin: 10px;
 }
 
-.mr-auto {
-    margin: .8rem;
-}
+.container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+.card-deck .card {
+    min-width: 220px;
+  }
 
-.banner {
-    height: 400px;
-    padding-top: 150px;
-}
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
 
-#services {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    font-size: 40px;
+    margin-top: 2rem;
+    margin-bottom: 5px;
+  }
 
 #about {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #8d99ae;
+    margin: 0 150px 0 150px;
 }
 
-#contact {
-    padding-top: 50px;
+#about h2 {
     padding-bottom: 50px;
 }
-footer {
-    padding: 10px 0;
+
+.contact {
+    padding-top: 50px;
+    padding-left: 100px
 }
 
+.social {
+    padding-top: 50px;
+    padding-left: 100px;
+}
 
 

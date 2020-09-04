@@ -8,153 +8,204 @@
                 <link rel="icon" type="image/png" href="images/favicon.png"/>
                 <link rel="stylesheet" href="css/index.css">
                 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+                <script src="javascript.js"></script>
+                <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         </head>
 
         <body>
-                <nav class="navbar navbar-expand-lg navbar-light">
 
-                        <a class="navbar-brand mr-auto img-fluid" href="#home"><img src="images/logo.png"></a>
+                <header>
+                        <div class="container-fluid">
+                                <div class="row">
+                                        <div class="col-md-12">
+                                                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark static-top">
+                                                        
+                                                        <a class="navbar-brand logo" href="#"><img src="images/logo.png"></a>
+                                                         
+                                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                                                <span class="navbar-toggler-icon"></span>
+                                                        </button> 
+                                                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                                                <ul class="navbar-nav">
+                                                                        <li class="nav-item active">
+                                                                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                                 <a class="nav-link" href="#services">Serviços</a>
+                                                                        </li>
+                                                                        <li class="nav-item">
+                                                                                <a class="nav-link" href="#about">Sobre nós</a>
+                                                                       </li>
+                                                                       <li class="nav-item">
+                                                                        <a class="nav-link" href="#contact">Contato</a>
+                                                               </li>
+                                                                </ul>
 
-                              <nav class="nav nav-pills nav-fill ml-auto ">
-                                <a class="nav-item nav-link active" href="#home">Home</a>
-                                <a class="nav-item nav-link" href="#services">Serviços</a>
-                                <a class="nav-item nav-link" href="#about">Sobre</a>
-                                <a class="nav-item nav-link" href="#contact">Contato</a>
-                              </nav>  
-                </nav>
+                                                        </div>
+                                                </nav>
+                                                <div class="jumbotron text-center">
+                                                        <h2 class="display-4">
+                                                                Asper Institute
+                                                        </h2>
+                                                        <p class="lead">
+                                                                Consultoria de idiomas
+                                                        </p>
+                                                        <p>
+                                                                <a class="btn btn-primary btn-rounded" href="#contact"><i class="fas fa-comment-dots left"></i>Saiba mais</a>
+                                                        </p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </header>
 
-                <section class="row" style="background-image: url('/Users/diegocamara/first-project/images/top.jpg'); 
-                height: 500px; background-repeat: no-repeat; background-position: center;
-                background-size:cover;>">
-
-                        <div class="container-fluid text-center text-light banner">
-
-                        <h1 class="h1">Asper Institute</h1>
-
-                        <p>Consultoria de idiomas</p>
-
-                        <button type="button" class="btn btn-primary" onclick="document.location='#contact'">Saiba mais</button>
-
+                <section id="services"> 
+                        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                                <h1 class="display-4">Serviços</h1>
+                                <p class="lead">Oferecemos consultoria de idiomas de inglês e português para estrangeiros, 
+                                        aulas on-line e in-company, etude no seu ritmo.</p>
                         </div>
 
-                </section>
-
-                <section id="services">  
-
-                        <div class="container-fluid text-center">
-       
-                        <h2>Serviços</h2>
-                
-                <div class="card-group">
-                        <div class="card">
-                          <img class="card-img-top" src="images/ingles.jpg" alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">Inglês</h5>
-                            <p class="card-text">Aulas online personalizadas</p>
-                            <p class="card-text">Aulas in-company</p>
-                            <p class="card-text">Imersões</p>
-                          </div>
-           
-                        </div>
-                        <div class="card">
-                          <img class="card-img-top" src="images/portugues.jpg" alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">Portuguese for foreigners</h5>
-                            <p class="card-text">Customized online classess</p>
-                            <p class="card-text">In-company classes</p>
-                            <p class="card-text">Immersions</p>
-                          </div>
-  
-                        </div>
-                        <div class="card">
-                          <img class="card-img-top" src="images/preparatorio.jpg" alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">Preparatório</h5>
-                            <p class="card-text">TOEFL</p>
-                            <p class="card-text">TOEIC</p>
-                            <p class="card-text">IELTS</p>
-                            <p class="card-text">CELPE-Bras</p>
-                         </div>
-
-                        </div>
-                      </div>
-                      </div>
-                </section>
+                        <div class="container">
+                                <div class="card-deck mb-3 text-center">
+                                  <div class="card mb-4 box-shadow">
+                                    <div class="card-header">
+                                      <h4 class="my-0 font-weight-normal">Inglês para brasileiros</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>Aulas personalizadas</li>
+                                        <li>Aulas in-company</li>
+                                        <li>Aulas on-line</li>
+                                        <li>Imersões</li>
+                                      </ul>
+                                      <a class="btn btn-lg btn-block btn-primary" href="#contact">Saiba mais</a>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-4 box-shadow">
+                                    <div class="card-header">
+                                      <h4 class="my-0 font-weight-normal">Portuguese for foreigners</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>Customized classess</li>
+                                        <li>In-company classes</li>
+                                        <li>Online classes</li>
+                                        <li>Immersions</li>
+                                      </ul>
+                                      <a class="btn btn-lg btn-block btn-primary" href="#contact">Saiba mais</a>
+                                    </div>
+                                  </div>
+                                  <div class="card mb-4 box-shadow">
+                                    <div class="card-header">
+                                      <h4 class="my-0 font-weight-normal">Preparatório para exames</h4>
+                                    </div>
+                                    <div class="card-body">
+                                      <ul class="list-unstyled mt-3 mb-4">
+                                        <li>TOEFL</li>
+                                        <li>TOEIC</li>
+                                        <li>IELTS</li>
+                                        <li>CELPE-Bras</li>
+                                      </ul>
+                                      <a class="btn btn-lg btn-block btn-primary" href="#contact">Saiba mais</a>
+                                    </div>
+                                  </div>
+                                </div>
+                                <hr class="featurette-divider">
+                        </section>
 
                 <section id="about">
-                <div class="container-fluid text-center">
-                        <h2>Sobre nós</h2>
-
-                        <img class="rounded-circle img-fluid" src="images/team.jpg" width="300" height="300">
-
-                        <p>Somos uma escola de idiomas com mais de 10 anos de experiência
-                                 em ensino de inglês e português para estrangeiros, colaboramos para o desenvolvimento
-                                  pessoal e profissional de alunos e instituições que se alinham a nossa missāo e valores.
-                                   Temos como objetivo principal prestar consultoria de idiomas com inovação, flexibilidade,
-                                    agilidade e comprometimento com nossos alunos e parceiros.</p>
-                </div>
+                        <div class="row featurette">
+                          <div class="col-md-7">
+                                <h2 class="featurette-heading">Sobre nós</h2>
+                                <p class="lead">Somos uma escola de idiomas com mais de 10 anos de experiência
+                                em ensino de inglês e português para estrangeiros, colaboramos para o desenvolvimento
+                                 pessoal e profissional de alunos e instituições que se alinham a nossa missāo e valores.
+                                  Temos como objetivo principal prestar consultoria de idiomas com inovação, flexibilidade,
+                                   agilidade e comprometimento com nossos alunos e parceiros.</p>
+                          </div>
+                          <div class="col-md-5">
+                            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" 
+                            src="images/team.jpg" alt="Generic placeholder image">
+                          </div>
+                        </div>
+                        <hr class="featurette-divider">
                 </section>
 
                 <section id="contact">
-                        <div class="container-fluid text-center">
 
-                        <h2>Contato</h2>
+                        <h2 class="display-4 text-center">Fale conosco</h2>
 
-                        <p>Fale com nossos consultores</p>
-
-                                <form>
-                                        <div class="form-group">
-                                           <label for="formGroupExampleInput">Nome completo:</label>
-                                           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite o seu nome completo">
+                        <div class="container">
+                                <div class="row contact">
+                                  <div class="col-sm-6">
+                                        <form role="form" > 
+                                                <div class="form-group text-left">
+                                                   <label for="formGroupExampleInput">Nome completo:</label>
+                                                   <input type="text" class="form-control" id="formGroupExampleInput" 
+                                                   placeholder="Digite o seu nome completo">
+                                                </div>
+        
+                                                <div class="form-group text-left">
+                                                  <label for="exampleInputEmail1">E-mail:</label>
+                                                  <input type="email" class="form-control" id="exampleInputEmail1" 
+                                                  aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                                                  <small id="emailHelp" class="form-text text-muted">
+                                                          Não compartilhamos seus dados com ninguém.</small>
+                                                </div>
+        
+                                                <div class="form-group text-left">
+                                                  <label for="formGroupExampleInput">Telefone:</label>
+                                                  <input type="tel" class="form-control" id="formGroupExampleInput" 
+                                                  placeholder="Digite o seu telefone">
+                                                </div>
+        
+                                                <div class="form-group text-left">
+                                                        <label for="exampleFormControlTextarea1">Mensagem:</label>
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" 
+                                                        placeholder="Digite sua mensagem"></textarea>
+                                                      </div>
+        
+                                                <button type="submit" class="btn btn-primary">Enviar</button>
+                                              </form>
+                                  </div>
+                                  <!-- /.col-sm-6 -->
+                                  <div class="col-sm-6">
+                                        <div class="social">
+                                                <p><a href="mailto:asperinstitute.com" target="_blank">asperinstitute@gmail.com</a></p>
+                                                <p><a href="tel:+5511991164104">+55(11)99116-4104</a></p>    
+                                                <a href="http://facebook.com/asperinstitute" target="_blank">
+                                                <img src="images/facebook.png" alt="Facebook" width="30px">
+                                                </a>
+                                                <a href="https://www.instagram.com/diego.teacher/" target="_blank">
+                                                <img src="images/instagram.jpeg" alt="Instagram" width="30px">
+                                                </a>
+                                                <a href="https://www.linkedin.com/company/asperinstitute" target="_blank">
+                                                <img src="images/linkedin.png" alt="LinkedIn" width="30px">
+                                                </a>
                                         </div>
-
-                                        <div class="form-group">
-                                          <label for="exampleInputEmail1">E-mail:</label>
-                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
-                                          <small id="emailHelp" class="form-text text-muted">Não compartilhamos o seu e-mail com ninguém.</small>
-                                        </div>
-
-                                        <div class="form-group">
-                                          <label for="formGroupExampleInput">Telefone:</label>
-                                          <input type="tel" class="form-control" id="formGroupExampleInput" placeholder="Digite o seu telefone">
-                                        </div>
-
-                                        <div class="form-group">
-                                                <label for="exampleFormControlTextarea1">Mensagem:</label>
-                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite sua mensagem"></textarea>
-                                              </div>
-
-                                        <button type="submit" class="btn btn-primary">Enviar</button>
-                                      </form>
-
-                        <div class="social">
-                                <p><a href="mailto:asperinstitute.com" target="_blank">asperinstitute@gmail.com</a></p>
-                                <p><a href="tel:+5511991164104">+55(11)99116-4104</a></p>    
-                                <a href="http://facebook.com/asperinstitute" target="_blank">
-                                <img src="images/facebook.png" alt="Facebook" width="30px">
-                                </a>
-                                <a href="https://www.instagram.com/diego.teacher/" target="_blank">
-                                <img src="images/instagram.jpeg" alt="Instagram" width="30px">
-                                </a>
-                                <a href="https://www.linkedin.com/company/asperinstitute" target="_blank">
-                                <img src="images/linkedin.png" alt="LinkedIn" width="30px">
-                                </a>
-                        </div> 
-                        </div> 
+                                  </div>
+                                  <!-- /.col-sm-6 -->
+                                </div>
+                                <!-- /.row -->
+                                <hr class="featurette-divider">
+                               </div>
+                               <!-- /.container -->
+                               
                 </section>
 
-                <footer>
-                        <div class="container-fluid text-center">
+                <footer class="text-center">
+                        <div class="container-fluid">
+                                <p class="float-right"><a href="#">Voltar ao topo</a></p>
+                                <P>&copy; Asper Institute 2020 Todos os direitos reservados</P>
 
-                        <P>Asper Institute &copy; 2020 Todos os direitos reservados</P>
-
-                        <ul class="nav flex-column">
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#contact">Contato</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">Politicas e Privacidade</a>
-                                </li>
+                                <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="#contact">Contato</a>
+                                        </li>
+                                        <li class="nav-item">
+                                        <a class="nav-link" href="#">Politicas e Privacidade</a>
+                                        </li>
                               </ul>
                         </div>
                  </footer>

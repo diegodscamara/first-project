@@ -1,59 +1,62 @@
-html {
-    width: 100%;
-}
-.navbar-nav {
-    padding-left: 800px !important;
-}
-
-.card {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+:root {
+  --blue-1: #007cba;
+  --blue-2: #006ba1;
+  --blue-3: #1f6096;
 }
 
-.text-left {
-    margin: 10px;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.container {
-    max-width: 960px;
-  }
-  
-  .pricing-header {
-    max-width: 700px;
-  }
-  
-.card-deck .card {
-    min-width: 220px;
-  }
+body{
+  font-family: CircularStd,sans-serif;
+  font-size: 17px;
+  color: #8493ac;
+  background-color: white;
+}
+/*base elements*/
 
-.featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
-
-.featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
-    font-size: 40px;
-    margin-top: 2rem;
-    margin-bottom: 5px;
-  }
-
-#about {
-    margin: 0 150px 0 150px;
+header .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#about h2 {
-    padding-bottom: 50px;
+header .container .logo{
+  margin: 5px;
 }
 
-.contact {
-    padding-top: 50px;
-    padding-left: 100px
+header nav a{
+  text-decoration: none;
+  color: var(--blue-3)!important;
 }
 
-.social {
-    padding-top: 50px;
-    padding-left: 100px;
+header nav a:hover{
+  color: var(--blue-1)!important;
+  text-decoration: none;
+}
+/*header elements*/
+
+.main{
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/images/top.png');
+  height: 550px;
+  background-size: cover;
+  display: flex; /*aling the elements*/
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.title{
+  font-size: 40px;
+}
+
+.main .description{
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 
 

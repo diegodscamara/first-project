@@ -1,3 +1,5 @@
+/*base elements*/
+
 :root {
   --blue-1: #007cba;
   --blue-2: #006ba1;
@@ -18,10 +20,11 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-weight: 400!important;
+  font-weight: 600!important;
+  margin-bottom: 30px!important;
 }
 
-/*base elements*/
+/*header elements*/
 
 header{
   border-bottom: 1px solid #eee;
@@ -39,16 +42,24 @@ header .container .logo{
   margin: 5px;
 }
 
+.navbar{
+  margin-right: 0px;
+  font-weight: 600;
+}
+
 header nav a{
   text-decoration: none;
   color: var(--blue-3)!important;
+  cursor: pointer!important;
+  transition: .3s ease all!important;
 }
 
 header nav a:hover{
-  color: var(--blue-1)!important;
+  color: black!important;
   text-decoration: none;
 }
-/*header elements*/
+
+/*main elements*/
 
 main .container{
   display: flex;
@@ -76,40 +87,112 @@ main .description{
 }
 
 .button i{
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 main img{
   height: 100%;
   width: 100%;
-  background-size: cover;
-  display: flex; /*aling the elements*/
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start; /*starts from left*/
 }
 
 .top-text{
   margin-top: 50px;
 }
 
+/*services elements*/
+
+#services{
+  padding: 70px 0px 100px 0px;
+  background-color: #f9fafc;
+}
+
+#services .container p{
+  margin-bottom: 50px;
+}
+
+.card-header{
+  margin: 0px;
+}
+
 /*about elements*/
 
-#about{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;  
-  margin: 50px 0px 100px 0px;
-  background-color: #fff!important;
+#about .container{ 
+  margin: auto;
+  padding: 70px 0px 100px 0px;
 }
 
 #about .container .title{
   margin-bottom: 30px;
 }
 
-/*services elements*/
+#about img{
+  border-radius: 50%;
+}
 
-#services{
-  margin-bottom: 100px;
+/*contact elements*/
+
+#contact{
+  padding: 70px 0px 100px 0px;
+  background-color: #f9fafc;
+}
+
+#contact .container{
+  display: block;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#contact i{
+  width: 20px;
+  height: 50px;
+  cursor: pointer!important;
+  transition: .1s ease all!important;
+}
+
+#contact a{
+  text-decoration: none;
+  cursor: pointer!important;
+  transition: .3s ease all!important;
+}
+
+#contact a:hover{
+  color: black;
+  cursor: pointer!important;
+  transition: .3s ease all!important;
+}
+
+#contact .container form{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+#contact .container form button{
+  padding: 8px 30px 8px 30px;
+}
+
+#contact .container form{
+  width: 60%;
+}
+
+/*footer elements*/
+
+footer{
+  padding: 50px 0px 50px 0px;
+}
+
+footer .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a{
+  margin-right: 0px;
+}
+
+footer p{
+  text-align: center;
 }

@@ -12,7 +12,7 @@
                 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         </head>
         <body>
-                <header>
+                <header class="sticky-top">
                         <div class="container">
                                 <a href="#" class="logo">
                                 <img src="/images/logo.png" alt="Asper Institute Logo">
@@ -35,6 +35,7 @@
                                                         <li class="nav-item">
                                                                 <a href="#contact" class="navbar-brand">Contato</a>
                                                         </li>
+                                                </ul>
                                         </div>
                                 </nav>
                         </div>
@@ -44,7 +45,9 @@
                                 <div class="container">
                                         <h1 class="title">ASPER INSTITUTE</h1>
                                         <p class="description">Oferecemos consultoria personalizada de inglês e português para estrangeiros</p>
-                                        <a class="btn btn-lg btn-default btn-primary" href="#contact">Saiba mais</a>
+                                        <a class="btn btn-lg btn-default btn-primary button" href="#contact">
+                                                <i class="fas fa-info-circle"></i>
+                                                Saiba mais</a>
                                 </div>
                         </div>
                 </main>
@@ -105,16 +108,16 @@
                 </section>
 
                 <section id="about">
-                        <div class="row featurette">
-                          <div class="col-md-7">
-                                <h2 class="featurette-heading">Sobre nós</h2>
+                        <div class="container row featurette">
+                          <div class="about col-md-7">
+                                <h2 class="title featurette-heading">Sobre nós</h2>
                                 <p class="lead">Somos uma escola de idiomas com mais de 10 anos de experiência
                                 em ensino de inglês e português para estrangeiros, colaboramos para o desenvolvimento
                                  pessoal e profissional de alunos e instituições que se alinham a nossa missāo e valores.
                                   Temos como objetivo principal prestar consultoria de idiomas com inovação, flexibilidade,
                                    agilidade e comprometimento com nossos alunos e parceiros.</p>
                           </div>
-                          <div class="col-md-5">
+                          <div class="photo col-md-5">
                             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" 
                             src="images/team.jpg" alt="Generic placeholder image">
                           </div>
@@ -123,10 +126,8 @@
                 </section>
 
                 <section id="contact">
-
-                        <h2 class="display-4 text-center">Fale conosco</h2>
-
                         <div class="container">
+                                <h2 class="title display-4 text-center">Fale conosco</h2>
                                 <div class="row contact">
                                   <div class="col-sm-6">
                                         <form role="form" > 
@@ -199,6 +200,8 @@
                               </ul>
                         </div>
                 </footer>
+
+                <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 
         </body>
 </html>

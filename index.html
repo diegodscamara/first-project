@@ -127,53 +127,43 @@
                 </section>
                 <section id="contact">
                         <div class="container">
-                                <h2 class="title">Fale conosco</h2>
-                                <div class="row">
-                                        <form role="form col-12 col-md-8" > 
-                                                <div class="form-group text-left">
-                                                        <label class="lead" for="formGroupExampleInput">Nome completo:</label>
-                                                        <input type="text" class="form-control" id="formGroupExampleInput" 
-                                                        placeholder="Digite o seu nome completo">
-                                                </div>
-                                                <div class="form-group text-left">
-                                                        <label class="lead" for="exampleInputEmail1">E-mail:</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail1" 
-                                                        aria-describedby="emailHelp" placeholder="Digite seu e-mail">
-                                                        <small id="emailHelp" class="form-text text-muted">
-                                                        Não compartilhamos seus dados com ninguém.</small>
-                                                </div>
-                
-                                                <div class="form-group text-left">
-                                                        <label class="lead" for="formGroupExampleInput">Telefone:</label>
-                                                        <input type="tel" class="form-control" id="formGroupExampleInput" 
-                                                        placeholder="Digite o seu telefone">
-                                                        </div>
-                
-                                                <div class="form-group text-left">
-                                                        <label class="lead" for="exampleFormControlTextarea1">Mensagem:</label>
-                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" 
-                                                        placeholder="Digite sua mensagem"></textarea>
-                                                </div>
-                
-                                                <button type="submit" class="btn btn-primary">Enviar</button>
-                                        </form>
-                                        <div class="social col-6 col-md-4">
-                                                <h4>Contato:</h4>
+                                <form role="form"> 
+                                        <h2 class="title">Fale conosco</h2>
+                                        <div class="form-group text-left validate-input" data-validate="Digite seu nome completo por favor">
+                                                <input type="text" class="form-control" id="formGroupExampleInput" 
+                                                placeholder="Digite o seu nome completo">
+                                        </div>
+                                        <div class="form-group text-left validate-input" data-validate="Digite seu email por favor">
+                                                <input type="email" class="form-control" id="exampleInputEmail1" 
+                                                aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+                                        </div>
+                                        <div class="form-group text-left validate-input" data-validate="Digite seu telefone por favor">
+                                                <input type="tel" class="form-control" id="formGroupExampleInput" 
+                                                placeholder="Digite o seu telefone">
+                                        </div>
+                                        <div class="form-group text-left validate-input" data-validate="Digite sua mensagem por favor">
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" 
+                                                placeholder="Digite sua mensagem"></textarea>
+                                        </div>
+                                        <div class="button text-center">
+                                        <button type="submit" class="btn btn-lg btn-default btn-primary button">Enviar</button>
+                                        </div>
+                                        <div class="social text-center">
                                                 <p><a href="mailto:asperinstitute.com" target="_blank">asperinstitute@gmail.com</a></p>
                                                 <p><a href="https://wa.me/5511991164104">+55(11)99116-4104</a></p>    
                                                 <a href="http://facebook.com/asperinstitute" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                                 <a href="https://www.instagram.com/diego.teacher/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 <a href="https://www.linkedin.com/company/asperinstitute" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                         </div>
-                                </div>
+                                </form>        
                         </div>      
                 </section>
                 <footer>
-                        <div class="container">
+                        <div class="container text-center">
                                 <P class="lead"> &copy; Asper Institute 2020 Todos os direitos reservados</P>
                                 <a href="#"><i class="fas fa-arrow-up"></i></a>
                         </div>
                 </footer>
-        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+                <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
         </body>
 </html>

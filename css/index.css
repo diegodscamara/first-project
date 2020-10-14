@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6{
   margin-bottom: 30px!important;
 }
 
+.btn{
+  border-radius: 8px!important;
+}
+
 /*header elements*/
 
 header{
@@ -132,48 +136,50 @@ main img{
 /*contact elements*/
 
 #contact{
-  padding: 70px 0px 100px 0px;
   background-color: #f9fafc;
 }
 
 #contact .container{
-  display: block;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
 }
 
-#contact i{
+#contact .container form{
+  width: 60%;
+}
+
+form .form-control{
+  border-radius: 8px;
+}
+
+form h2{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.social{
+  margin-top: 50px;
+}
+
+.social i{
   width: 20px;
   height: 50px;
   cursor: pointer!important;
   transition: .1s ease all!important;
 }
 
-#contact a{
+.social a{
   text-decoration: none;
   cursor: pointer!important;
   transition: .3s ease all!important;
 }
 
-#contact a:hover{
+.social a:hover{
   color: black;
   cursor: pointer!important;
   transition: .3s ease all!important;
-}
-
-#contact .container form{
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5%;
-}
-
-#contact .container form button{
-  padding: 8px 30px 8px 30px;
-}
-
-#contact .container form{
-  width: 60%;
 }
 
 /*footer elements*/

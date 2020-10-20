@@ -75,6 +75,7 @@ main .container{
 main .container .title{
   font-size: 55px!important;
   letter-spacing: -1.96px!important;
+  margin-top: 50px;
 }
 
 main .description{
@@ -85,7 +86,7 @@ main .description{
 .button{
   border: none!important;
   padding: 10px 30px!important;
-  margin-right: 15px!important;
+  margin: 0 15px 40px 0!important;
   cursor: pointer!important;
   transition: .3s ease all!important;
 }
@@ -95,13 +96,10 @@ main .description{
 }
 
 main img{
-  height: 100%;
   width: 100%;
 }
 
-.top-text{
-  margin-top: 50px;
-}
+
 
 /*services elements*/
 
